@@ -1,4 +1,10 @@
 body{
     color:sandybrown;
     background:azure;
+    margin: 20px;
+}
+
+header{
+    border-bottom: solid 2px #d1b64b;
+    padding:20px
 }
