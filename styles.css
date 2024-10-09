@@ -1,10 +1,24 @@
 body{
     color:sandybrown;
     background:azure;
-    margin: 20px;
+    margin: 10px;
 }
 
 header{
     border-bottom: solid 2px #d1b64b;
-    padding:20px
+    padding:20px;
+    font-size: 30px;
+    color: hsl(28, 87%, 67%)
+}
+
+section{
+    background:rgb(233, 233, 154);
+    padding-bottom:8opx;
+    padding-top: 80px;
+    display:flex;
+    justify-content:center;
+}
+
+.chamada-texto{
+    margin-right:5%;
 }
