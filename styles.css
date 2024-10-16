@@ -2,6 +2,7 @@ body{
     color:sandybrown;
     background:azure;
     margin: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 header{
@@ -22,3 +23,10 @@ section{
 .chamada-texto{
     margin-right:5%;
 }
+
+h1{
+    font-size: 100%;
+}
+  p{
+    font-size:00% ;
+  }
