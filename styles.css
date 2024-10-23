@@ -28,5 +28,9 @@ h1{
     font-size: 100%;
 }
   p{
-    font-size:00% ;
+    font-size:100% ;
+  }
+
+  img{
+    height:200px
   }
