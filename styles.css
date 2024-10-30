@@ -1,6 +1,6 @@
 body{
-    color:sandybrown;
-    background:azure;
+    color:rgb(17, 17, 16);
+    background:rgb(136, 136, 131);
     margin: 10px;
     font-family: "Roboto", sans-serif;
 }
@@ -9,11 +9,11 @@ header{
     border-bottom: solid 2px #d1b64b;
     padding:20px;
     font-size: 30px;
-    color: hsl(28, 87%, 67%)
+    color: rgb(235, 235, 168);
 }
 
-section{
-    background:rgb(233, 233, 154);
+.chamada{
+    background:rgb(235, 235, 168);
     padding-bottom:8opx;
     padding-top: 80px;
     display:flex;
@@ -31,6 +31,27 @@ h1{
     font-size:100% ;
   }
 
-  img{
-    height:200px
+  .categoria-músicas{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
   }
+
+  .categoria{
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .categoria-músicas img{
+    opacity:0.6;
+    height: 200px;
+  }
+
+  .categoria-músicas img:hover{
+    opacity: 1.0;
+    border: 1px solid green;
+  }
+
+  .categoria h2{
+    color:rgb(235, 235, 168);
+    }
